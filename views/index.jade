@@ -1,0 +1,9 @@
+extends layout
+
+block video
+	div(onload = "init()")
+		video#video(width = "500")
+		canvas#canvas
+block controls
+	button#startbutton.btn Take Picture
+	button#savebutton.btn Save Picture
